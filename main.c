@@ -2,7 +2,12 @@
 int square(int number);
 int main()
 {
-	printf("hello, world!");
+	int N;
+	printf("Enter a number: ");
+	scanf("%d", &N);
+
+	int N_square = square(N);
+	printf("The square of %d is %d.\n", N, N_square);
 	return 0;
 }
 
