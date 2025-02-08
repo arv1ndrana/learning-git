@@ -4,7 +4,7 @@ int square(int number);
 int main(void)
 {
 	int N;
-	printf("Enter a number: ");
+	printf("N: ");
 	scanf("%d", &N);
 
 	int N_square = square(N);
